@@ -10,3 +10,37 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.container {
+    height: 100%;
+    width: 100%;
+    background: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vmin;
+}
+
+.game {
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    gap: 2vmin;
+}
+
+.new_game {
+    padding: 2vmin 4vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    font-size: large;
+    background: #fff4e4;
+    color: black;
+}
