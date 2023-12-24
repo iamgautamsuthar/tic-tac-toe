@@ -15,10 +15,12 @@ const pattern = [
 ];
 
 newGame.addEventListener("click", () => {
-    boxes.forEach((box) => {
-        box.innerHTML = "";
-    });
-    winner.innerHTML = "";
+    // boxes.forEach((box) => {
+    //     box.innerHTML = "";
+    //     box.setAttribute("disabled", false);
+    // });
+    // winner.innerHTML = "";
+    location.reload();
 });
 
 const pauseGame = () => {
